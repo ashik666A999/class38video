@@ -1,0 +1,118 @@
+
+
+body{
+    overflow-x: hidden;
+}
+
+@media (max-width:950px){
+    .fixwith {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+    
+    }
+
+    .about h2{
+        font-size: 30px;
+        color: red;
+    }
+}
+
+
+@media (max-width:900px) {
+    .fixwith {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    
+    }
+    
+    .header-left {
+        width: 100%;
+        text-align: center;
+        padding: 7px;
+    }
+
+    .header-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-right ul {
+        text-align: center;
+    }
+
+    .header-right ul li a {
+        padding: 0px 28px;
+        font-size: 21px;
+        border: none;
+        box-sizing: border-box;
+    
+    }
+
+
+
+
+
+@media (max-width:888px){
+
+    .header {
+        background-color: #bd2212;
+    }  
+    
+    .header-right ul {
+        text-align: center;
+       
+    }
+
+
+    .header-right ul li {
+       
+        margin-left: -4px;
+    }
+
+    .header-right ul li a {
+        padding: 0px 17px;
+        font-size: 20px;
+    }
+
+
+}
+
+@media (max-width:646px) {
+
+    .fixwith {
+        width: 100%;
+        max-width: 100%;
+    
+    }
+    .service-itmes {
+        width: 100%;
+    }
+    .content-left {
+        width: 100%;
+    }
+    .content-right{
+        width: 100%;
+    }
+    .content-right h2 {
+        font-size: 34px;
+        margin-bottom: 10px;
+        border-bottom: 2px solid black;
+        text-align: center;
+    }
+
+    .f-left {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .f-right {
+        width: 100%;
+    }
+    .s-icon ul {
+        text-align: center;
+    }
+}

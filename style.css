@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.fixwith{
+    width: 1100px;
+    margin: auto;
+}
+
+.img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+
+/* header */
+
+.header{
+    background-color: #74b9ff;
+}
+.header-left{
+    width: 30%;
+    float: left;
+}
+.header-left img{
+    width: 158px;
+    height: auto;
+}
+
+.header-right{
+    width: 70%;
+    float: right;
+}
+.header-right ul{
+    text-align: right;
+    list-style: none;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 0 30px;
+    border-right: 1px solid #dddd;
+    line-height: 72px;
+    font-size: 21px;
+    color: #ffff;
+}
+.header-right ul li a:hover{
+    background-color: #0984e3;
+}
+
+/* slider */
+
+.slider{
+    background-image: url(./img/husen-siraaj-9N0ZsXp5Xv8-unsplash.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 170px 0px;
+}
+.slider h3{
+    background-color: rgba(116, 185, 255,0.4);
+    display: inline-block;
+    padding: 11px 13px;
+    font-size: 29px;
+    border-radius: 10px;
+}
+.slider h2{
+    background-color: rgba(126, 214, 223,.3);
+    color: #ffff;
+    max-width: 362px;
+    margin: auto;
+    margin-top: 19px;
+    padding: 10px 36px;
+}
+
+/* service */
+
+.about{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 277px;
+}
+.about h2{
+    font-size: 30px;
+}
+.about p{
+    margin-top: 10px;
+}
+
+
+
+.service-itmes{
+    width: 31.3%;
+    float: left;
+    border: 1px solid #dddd;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 28px;
+    margin-bottom: 20px;
+    box-shadow: 2px 0px 6px 2px #dddddd;
+}
+
+.service-itmes span{
+    display: block;
+    width: 52px;
+    margin: auto;
+    font-size: 35px;
+    background-color: #f9ca24;
+    padding: 10px 10px;
+    border-radius: 30px 0px 30px 0px;
+}
+.service-itmes h2{
+    margin-top: 12px;
+    font-size: 31px;
+}
+.service-itmes p{
+    margin-top: 10px;
+}
+
+/* content */
+.content{
+    margin-top: 20px;
+}
+
+.content-left{
+    float: left;
+    width: 70%;
+}
+.blog-item{
+    margin-bottom: 22px;
+}
+.blog-item img{
+    float: left;
+    width: 145px;
+    margin-right: 20px;
+    height: auto;
+    margin-left: 12px;
+}
+.blog-item p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.content-right{
+    float: right;
+    width: 25%;
+    
+}
+.content-right h2{
+    font-size: 34px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+.content-right ul{
+    list-style: none;
+    text-align: center;
+}
+.content-right ul li::before{
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    color: #6ab04c;
+    margin-right: 5px;
+}
+.content-right ul li{
+    margin-bottom: 20px;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    padding: 10px 13px;
+    border-radius: 10px 0px 10px 0px;
+}
+
+/* footer */
+.footer{
+    background: black;
+    padding: 10px 10px;
+}
+
+.f-left{
+    width: 50%;
+    float: left;
+}
+.f-left p{
+    color: #ffff;
+}
+
+.f-right{
+    width: 50%;
+    float: right;
+}
+
+.s-icon ul{
+    text-align: right;
+}
+.s-icon ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.s-icon ul li a{
+    display: block;
+    color: aliceblue;
+    font-size: 20px;
+    transition: .4s;
+
+}
+.s-icon ul li a:hover{
+    color: #badc58;
+}
+
+
